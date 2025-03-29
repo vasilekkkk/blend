@@ -1,0 +1,693 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+.firstblok {
+	width: 100%;
+	height: 2vw;
+	background-color: #fff;
+	position: relative;
+	z-index: 4;
+}
+.heart1 {
+	margin-top: 0.3vw;
+	width: 1.5vw;
+	height: 1.5vw;
+	margin-left: 0.5vw;
+	position: absolute;
+	z-index: 4;
+}
+.list1 {
+	width: 100%;
+	height: 202.3vw;
+	background: #2348a3;
+	position: relative;
+	overflow: hidden;
+}
+.saffinadpis {
+	width: 85%;
+	margin-left: 6.2vw;
+	position: absolute;
+	margin-top: -1.5vw;
+	z-index: 2;
+}
+.bigvolna {
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+.smallvolna {
+	width: 100%;
+	position: absolute;
+	margin-top: 49vw;
+	z-index: 3;
+}
+.bigflower1 {
+	width: 80%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 60vw;
+	margin-top: -12vw;
+	animation: rotate1 5s linear infinite;
+}
+@keyframes rotate1 {
+	0% {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+.bigflower2 {
+	width: 58.4%;
+	position: absolute;
+	z-index: 2;
+	margin-left: -29vw;
+	margin-top: -4vw;
+	animation: rotate2 4s linear infinite;
+}
+@keyframes rotate2 {
+	0% {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+.bigflower3 {
+	width: 85%;
+	position: absolute;
+	z-index: 2;
+	margin-top: 50vw;
+	margin-left: -28vw;
+	animation: rotate3 8s linear infinite;
+}
+@keyframes rotate3 {
+	0% {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+.bigflower4 {
+	width: 85%;
+	position: absolute;
+	z-index: 2;
+	margin-top: 79vw;
+	margin-left: 48vw;
+	animation: rotate4 6s linear infinite;
+}
+@keyframes rotate4 {
+	0% {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+.bigflower5 {
+	width: 110%;
+	position: absolute;
+	z-index: 2;
+	margin-top: 128.5vw;
+	margin-left: -22vw;
+	rotate: 13deg;
+	animation: rotate5 10s linear infinite;
+}
+@keyframes rotate5 {
+	0% {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+.strelka1 {
+	width: 4%;
+	position: absolute;
+	margin-top: 36vw;
+	margin-left: 47vw;
+}
+.buttonfirst {
+	width: 16vw;
+	height: 4vw;
+	font-family: SF Mono Regular;
+	font-size: 2.8vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 45vw;
+	margin-left: 41vw;
+	border-radius: 1vw;
+	background-color: #4f66b5;
+	border: 0.2vw solid #ffdeff;
+	z-index: 4;
+}
+.text1 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 50vw;
+	margin-left: 33vw;
+}
+.text2 {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 80vw;
+	margin-left: 65vw;
+}
+.text3 {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 133vw;
+	margin-left: 3vw;
+}
+.text4 {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 150vw;
+	margin-left: 61vw;
+}
+.text5 {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 185vw;
+	margin-left: 78vw;
+}
+.hidden {
+	display: none;
+}
+.list2 {
+	width: 100%;
+	height: fit-content;
+	background: #2348a3;
+}
+.text212 {
+	width: 100vw;
+	text-align: center;
+	font-family: SF Mono Regular;
+	font-size: 1.8vw;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	top: 3vw;
+	z-index: 10;
+	left: 50%;
+	transform: translate(-50%);
+	color: #ffdeff;
+}
+.text21 {
+	font-family: SF Mono Regular;
+	font-size: 1.8vw;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	top: 1vw;
+	z-index: 10;
+	left: 50%;
+	transform: translate(-50%);
+	color: #e19ae1;
+}
+.textmak {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 130vw;
+	margin-left: 27vw;
+}
+.textromashka {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 76vw;
+	margin-left: 3vw;
+}
+.textlotos {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 37vw;
+	margin-left: 6vw;
+}
+.textastra {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 68vw;
+	margin-left: 47vw;
+}
+.texttulip {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 20vw;
+	margin-left: 66vw;
+}
+.textrose {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 40vw;
+	margin-left: 77vw;
+}
+.textorhid {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 119.3vw;
+	margin-left: 68vw;
+}
+.textklever {
+	font-family: SF Mono Regular;
+	font-size: 1vw;
+	color: #bfffb6;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 53vw;
+	margin-left: 36vw;
+}
+.text22 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 73.4vw;
+	margin-left: 3vw;
+}
+.text23 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 125vw;
+	margin-left: 27vw;
+}
+.text24 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 18vw;
+	margin-left: 9vw;
+}
+.text25 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 48vw;
+	margin-left: 23.1vw;
+}
+.text26 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 18vw;
+	margin-left: 66vw;
+}
+.text27 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 73vw;
+	margin-left: 54vw;
+}
+.text28 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 43vw;
+	margin-left: 87vw;
+}
+.text29 {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 90vw;
+	margin-left: 88vw;
+}
+.greenvx2 {
+	width: 68%;
+	position: absolute;
+	z-index: 1;
+	margin-top: -1vw;
+	margin-left: 16vw;
+}
+.kust {
+	width: 100%;
+	margin-top: 3vw;
+}
+.fl1 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 79.4vw;
+	margin-left: -95.4vw;
+	rotate: -2deg;
+}
+.fl2 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 112.3vw;
+	margin-left: -95vw;
+	rotate: -2deg;
+}
+.fl3 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 54.5vw;
+	margin-left: -79vw;
+}
+.fl4 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 18vw;
+	margin-left: -85vw;
+}
+.fl5 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 74.7vw;
+	margin-left: -60vw;
+}
+.fl6 {
+	width: 23%;
+	position: absolute;
+	margin-top: 21vw;
+	margin-left: -54vw;
+}
+.fl7 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 48.3vw;
+	margin-left: -31vw;
+}
+.fl8 {
+	width: 21.3%;
+	position: absolute;
+	margin-top: 93.5vw;
+	margin-left: -25.9vw;
+}
+.list3 {
+	width: 100%;
+	position: relative;
+	height: 96vw;
+	background: #2348a3;
+	overflow: hidden;
+}
+.flowerlist3 {
+	width: 100%;
+	position: relative;
+	z-index: 3;
+}
+.bigflowerlist31 {
+	position: absolute;
+	width: 60%;
+	rotate: 0deg;
+	margin-top: -15vw;
+	margin-left: -118vw;
+	z-index: 2;
+}
+.bigflowerlist32 {
+	position: absolute;
+	width: 78%;
+	rotate: 50deg;
+	margin-top: -16vw;
+	margin-left: -53vw;
+	z-index: 2;
+}
+.bigflowerlist33 {
+	position: absolute;
+	width: 67%;
+	rotate: 50deg;
+	margin-top: 55vw;
+	margin-left: -43vw;
+	z-index: 2;
+	rotate: 180deg;
+}
+.blox {
+	width: 60%;
+	position: absolute;
+	margin-top: 36vw;
+	margin-left: -100vw;
+}
+.textarea {
+	width: 48.5%;
+	resize: none;
+	font-family: 'SF Mono Regular';
+	height: 37.9%;
+	outline: none;
+	position: absolute;
+	margin-top: 48.7vw;
+	z-index: 5;
+	padding-top: 1vw;
+	margin-left: 6vw;
+	border-radius: 2vw;
+	color: #000;
+	background: #ffdeff;
+	border: none;
+}
+.strelka2 {
+	width: 4%;
+	position: absolute;
+	margin-top: 50vw;
+	margin-left: -14vw;
+	rotate: -93deg;
+	z-index: 5;
+}
+.list4 {
+	position: relative;
+	width: 100%;
+	height: 140vw;
+	background: #2348a3;
+	overflow: hidden;
+}
+.text31 {
+	font-family: SF Mono Regular;
+	font-size: 1.8vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 39.5vw;
+	margin-left: 10vw;
+}
+.bf4 {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	margin-top: 30vw;
+}
+.magic {
+	width: 97%;
+	position: absolute;
+	margin-left: -3vw;
+	margin-top: 5vw;
+}
+.textm {
+	font-family: SF Mono Regular;
+	font-size: 1.5vw;
+	color: #ffdeff;
+	letter-spacing: 0.24vw;
+	position: absolute;
+	margin-top: 30vw;
+	margin-left: 60vw;
+}
+.greenvx {
+	width: 68%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	margin-left: 16vw;
+}
+.fon5 {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+#Dcontainer {
+	position: relative;
+	z-index: 3;
+}
+.list5 {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #2e3f65;
+	overflow: hidden;
+}
+@font-face {
+	font-family: SF Mono Light;
+	src: local(alcotton), url('../fonts/SFMono-Light.otf');
+}
+@font-face {
+	font-family: SF Mono Regular;
+	src: local(alcotton), url('../fonts/SFMono-Regular.otf');
+}
+@font-face {
+	font-family: SF Mono Medium;
+	src: local(alcotton), url('../fonts/SFMono-Medium.otf');
+}
