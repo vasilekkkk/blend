@@ -26626,7 +26626,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		S(),
 			L(),
 			T.load(
-				`https://koud2.github.io/blend/models/${H}.glb`,
+				`https://vasilekkkk.github.io/blend/models/${H}.glb`,
 				O => {
 					;(g = O.scene),
 						N(g),
